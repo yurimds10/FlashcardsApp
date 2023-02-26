@@ -9,9 +9,9 @@ export const Nav = styled.nav<INavProps>`
         display: none;
         width: 60%;
         transition: .3s;
-        
     }
     
+    max-width: 300px;
     height: 100vh;
     padding: 7rem 0;
     
@@ -28,7 +28,14 @@ export const Nav = styled.nav<INavProps>`
     }
 
     @media screen and (min-width: 768px) {
-        width: 300px;
+        
+        position: fixed;
+        left: 0;
+        top: 0;
+    }
+
+    @media screen and (min-width: 968px) {
+        width: 20%;
     }
 `;
 

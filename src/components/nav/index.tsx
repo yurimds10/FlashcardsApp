@@ -5,31 +5,33 @@ import { AiOutlineHome } from "react-icons/ai";
 import { GiCardBurn } from "react-icons/gi";
 import { FaUserFriends } from "react-icons/fa";
 import { BsGraphUp } from "react-icons/bs";
+import { useContext } from "react";
+import { Link } from "react-router-dom";
 
 export const Nav = () => {
     
     return(
-        <S.Nav open={true}>
+        <S.Nav open={false}> 
             <S.List>
                 <S.ListItem>
                     <AiOutlineHome/>
-                    <a href="#">Home</a>
+                    <Link to={"/"}>Home</Link>
                 </S.ListItem>
                 <S.ListItem>
                     <GiCardBurn/>
-                    <a href="#">Decks</a>
+                    <Link to={"/decks"}>Decks</Link>
                 </S.ListItem>
                 <S.ListItem>
                     <BsGraphUp/>
-                    <a href="#">Dashboard</a>
+                    <Link to={"/dashboard"}>Dashboard</Link>
                 </S.ListItem>
                 <S.ListItem>
                     <FaUserFriends/>
-                    <a href="#">Friends</a>
+                    <Link to={"/friends"}>Friends</Link>
                 </S.ListItem>
                 <S.ListItem>
                     <CgLogOut/>
-                    <a href="#">Login out</a>
+                    <Link to={"/sigin"}>Login out</Link>
                 </S.ListItem>
             </S.List>
         </S.Nav>
