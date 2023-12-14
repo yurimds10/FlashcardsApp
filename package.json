@@ -21,13 +21,21 @@
     "@types/react-dom": "^18.2.15",
     "@types/react-router-dom": "^5.3.3",
     "@types/styled-components": "^5.1.30",
-    "@typescript-eslint/eslint-plugin": "^6.11.0",
-    "@typescript-eslint/parser": "^6.11.0",
+    "@typescript-eslint/eslint-plugin": "^6.14.0",
+    "@typescript-eslint/parser": "^6.14.0",
     "@vitejs/plugin-react": "^4.2.0",
     "eslint": "^8.53.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.0.1",
+    "eslint-plugin-react": "^7.33.2",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.4",
+    "prettier": "3.1.1",
     "typescript": "^5.2.2",
     "vite": "^5.0.0"
-  }
+  },
+  "main": "index.js",
+  "repository": "git@github.com:Musashi53/FlashCards.git",
+  "author": "Musashi53 <coder73854@proton.me>",
+  "license": "MIT"
 }
