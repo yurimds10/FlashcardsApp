@@ -3,6 +3,7 @@
 @tailwind utilities;
 
 body {
-  @apply bg-gray-900;
-  @apply text-slate-100;
+  @apply bg-primary-background;
+  @apply font-sans;
+  @apply text-primary-foreground
 }
