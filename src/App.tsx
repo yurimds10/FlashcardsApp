@@ -1,14 +1,11 @@
-import { Header } from "./components/header";
-import { Nav } from "./components/nav";
+import { Header } from "./components/layout/Header";
+import Nav from "./components/layout/Nav";
 import { Router } from "./routes/index.routes";
 
-export const App = () => {
-  
+export default function App() {
   return (
     <>
-      <Header/>
       <Nav/>
-      <Router/>
     </>
   );
 };

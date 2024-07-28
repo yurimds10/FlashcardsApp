@@ -4,7 +4,7 @@ interface INavLink {
   name: string
 }
 
-export const NavLink = (props: INavLink) => {
+export default function NavLink(props: INavLink) {
   return (
     <li
       className="

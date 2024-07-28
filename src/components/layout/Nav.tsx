@@ -1,4 +1,4 @@
-import { NavLink } from "../common/NavLink";
+import NavLink from "../common/NavLink";
 import { CgLogOut } from "react-icons/cg";
 import { AiOutlineHome } from "react-icons/ai";
 import { GiCardBurn } from "react-icons/gi";
