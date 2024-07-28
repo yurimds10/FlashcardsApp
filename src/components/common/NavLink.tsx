@@ -9,8 +9,11 @@ export default function NavLink(props: INavLink) {
     <li
       className="
         list-item
-        p-2
+        py-2
+        px-8
         mb-1
+        mx-2
+        rounded-xl
         hover:bg-normal-magenta
         hover:cursor-pointer
       "

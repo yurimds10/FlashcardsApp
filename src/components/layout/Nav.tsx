@@ -7,7 +7,7 @@ import { BsGraphUp } from "react-icons/bs";
 
 export default function Nav() {
   return (
-    <nav className="fixed max-md:400">
+    <nav className="fixed bg-normal-black max-md:400 h-screen border-r-2">
       <ul className="pt-12">
         <NavLink link="/" name="Home" icon={<AiOutlineHome/>}/>
         <NavLink link="/decks" name="Decks" icon={<GiCardBurn/>}/>
