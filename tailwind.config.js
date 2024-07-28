@@ -8,31 +8,31 @@ export default {
 		},
 		colors: {
 			primary: {
-				background: "#3c3836",
+				background: "#1d2021",
     		foreground: "#ebdbb2"
 			},
 
 			normal: {
-				black:  "#101010",
-				red:    "#cc241d",
-				green:  "#98971a",
-				yellow: "#d79921",
-				blue:   "#458588",
-				purple: "#b16286",
-				aqua:   "#689d6a",
-				gray:   "#928374",
-				orange: "#d65d0e"
+				black:   "#282828",
+				red:     "#cc241d",
+				green:   "#98971a",
+				yellow:  "#d79921",
+				blue:    "#458588",
+				magenta: "#b16286",
+				aqua:    "#689d6a",
+				gray:    "#928374",
+				orange:  "#d65d0e"
 			},
 			alt: {
-				black:  "#202020",
-				red:    "#fb4934",
-				green:  "#b8bb26",
-				yellow: "#fabd2f",
-				blue:   "#83a598",
-				purple: "#d3869b",
-				aqua:   "#8ec97c",
-				gray:   "#a89984",
-				orange: "#fe8919"
+				black:   "#3c3836",
+				red:     "#fb4934",
+				green:   "#b8bb26",
+				yellow:  "#fabd2f",
+				blue:    "#83a598",
+				magenta: "#d3869b",
+				aqua:    "#8ec97c",
+				gray:    "#a89984",
+				orange:  "#fe8919"
 			}
 		},
 		spacing: {
